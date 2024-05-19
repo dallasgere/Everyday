@@ -40,6 +40,7 @@ struct TodoView: View {
 }
 
 #Preview {
+    // need this for observed objects
     struct Preview: View {
         @ObservedObject var todoViewModel = TodoViewModel()
         var body: some View {
